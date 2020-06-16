@@ -23,7 +23,7 @@ jobs:
       with:
         # github secsurity stoken
         repo-token: ${{secrets.GITHUB_TOKEN}}
-        # relative directory to node_modules
+        # relative directory to nosde_modules
         custom-directory: "./"
         # relative path to eslint confnig file eg. .eslintrc
         eslint-config-path: ".eslintrc.json"
